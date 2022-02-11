@@ -56,9 +56,9 @@ namespace HCALabReport.Controllers
         }
 
         /// <summary>
-        /// To display the credential details by Name
+        /// To display the credential details by Id
         /// </summary>
-        /// <param name="Name"></param>
+        /// <param name="Id"></param>
         /// <returns></returns>
         [Route("GetCredentialById")]
         [HttpGet]
