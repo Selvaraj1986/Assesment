@@ -550,3 +550,4 @@ C:\Users\a851276\source\repos\Assesment\HCALabReport\HCALabReport\obj\Debug\net6
 C:\Users\a851276\source\repos\Assesment\HCALabReport\HCALabReport\obj\Debug\net6.0\ref\HCALabReport.dll
 C:\Users\a851276\source\repos\Assesment\HCALabReport\HCALabReport\obj\Debug\net6.0\HCALabReport.pdb
 C:\Users\a851276\source\repos\Assesment\HCALabReport\HCALabReport\obj\Debug\net6.0\HCALabReport.genruntimeconfig.cache
+C:\Users\a851276\source\repos\Assesment\HCALabReport\HCALabReport\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

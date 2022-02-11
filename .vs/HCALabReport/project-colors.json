@@ -1,51 +1,11 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "af1e786a-95dc-4528-a79e-61c4bcb6d0f6": {
-      "ProjectGuid": "af1e786a-95dc-4528-a79e-61c4bcb6d0f6",
-      "DisplayName": "HCALabReport",
-      "ColorIndex": 0
-    },
-    "8134b852-cc25-4896-a6bb-fc3811fca8f4": {
-      "ProjectGuid": "8134b852-cc25-4896-a6bb-fc3811fca8f4",
-      "DisplayName": "Report.Common",
-      "ColorIndex": 1
-    },
-    "7dc7a611-cac5-4129-9cef-97358b08d425": {
-      "ProjectGuid": "7dc7a611-cac5-4129-9cef-97358b08d425",
-      "DisplayName": "Report.Entity",
-      "ColorIndex": 2
-    },
-    "58c1a0e7-6509-4ac5-be09-2cad7ad2543e": {
-      "ProjectGuid": "58c1a0e7-6509-4ac5-be09-2cad7ad2543e",
-      "DisplayName": "Report.Model",
-      "ColorIndex": 3
-    },
-    "05a5a520-6fcd-4841-972c-4e8ae8db2cd6": {
-      "ProjectGuid": "05a5a520-6fcd-4841-972c-4e8ae8db2cd6",
-      "DisplayName": "Report.Repository",
-      "ColorIndex": 4
-    },
-    "7c304b94-1dae-4bc2-a49b-e4b969d6442c": {
-      "ProjectGuid": "7c304b94-1dae-4bc2-a49b-e4b969d6442c",
-      "DisplayName": "Report.Support",
-      "ColorIndex": 5
-    },
-    "d4bf1772-2c5c-451f-8d77-83994389f38b": {
-      "ProjectGuid": "d4bf1772-2c5c-451f-8d77-83994389f38b",
-      "DisplayName": "HCALabReport",
-      "ColorIndex": 6
-    },
-    "13341790-375c-4b66-a81a-c1e2a694b7a1": {
-      "ProjectGuid": "13341790-375c-4b66-a81a-c1e2a694b7a1",
-      "DisplayName": "HCALabReport",
-      "ColorIndex": 7
-    },
     "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 0
 }

@@ -1,12 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Km42Nz+CKj/OZ5TU0ESfwV82IDl/pF/AZ28Axin8A/uYx0p8ptGkqFO76IzsXSZscITp1NNtZkE/1PcMeoaGOg==",
+  "dgSpecHash": "3g6/VKjOa54PqODa97Qyrp6KcFGVDyDQjBt/lNmqZYLvOFsgDruUyeHFgmAT8VtYE6agnH8zKBif4Y41E55sPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\a851276\\source\\repos\\Assesment\\HCALabReport\\Report.Support\\Report.Support.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\a851276\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\a851276\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\a851276\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\a851276\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\a851276\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\a851276\\.nuget\\packages\\microsoft.identitymodel.logging\\6.15.1\\microsoft.identitymodel.logging.6.15.1.nupkg.sha512",
+    "C:\\Users\\a851276\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.15.1\\microsoft.identitymodel.tokens.6.15.1.nupkg.sha512",
+    "C:\\Users\\a851276\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.15.1\\system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",
+    "C:\\Users\\a851276\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\a851276\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

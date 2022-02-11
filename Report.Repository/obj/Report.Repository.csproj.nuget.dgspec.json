@@ -231,6 +231,10 @@
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.1, )"
             }
           },
           "imports": [

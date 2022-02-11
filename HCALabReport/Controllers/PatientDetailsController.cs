@@ -1,20 +1,29 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using Report.Model;
 using Report.Repository.Interfaces;
+using Report.Support;
+using System.IdentityModel.Tokens.Jwt;
 using System.Net;
+using System.Security.Claims;
+using System.Text;
 
 namespace HCALabReport.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class PatientDetailsController : Controller
     {
         private readonly IPatientDetailRepository _patientDetailRepository;
-
-        public PatientDetailsController(IPatientDetailRepository patientDetailRepository)
+        private IConfiguration _iconfiguration;
+        public PatientDetailsController(IPatientDetailRepository patientDetailRepository, IConfiguration configuration)
         {
             _patientDetailRepository = patientDetailRepository;
+            _iconfiguration = configuration;
         }
+
         /// <summary>
         /// To display all the patient details
         /// </summary>
@@ -23,9 +32,11 @@ namespace HCALabReport.Controllers
         [HttpGet]
         public ActionResult GetPatientDetails()
         {
+
             var result = _patientDetailRepository.GetPatientDetails();
             return this.Ok(result);
         }
+
         /// <summary>
         /// To display the patient details by Id
         /// </summary>

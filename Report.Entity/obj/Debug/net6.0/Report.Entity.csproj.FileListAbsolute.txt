@@ -13,7 +13,6 @@ C:\Users\a851276\source\repos\Assesment\HCALabReport\Report.Entity\bin\Debug\net
 C:\Users\a851276\source\repos\Assesment\HCALabReport\Report.Entity\bin\Debug\net6.0\Report.Entity.dll
 C:\Users\a851276\source\repos\Assesment\HCALabReport\Report.Entity\bin\Debug\net6.0\ref\Report.Entity.dll
 C:\Users\a851276\source\repos\Assesment\HCALabReport\Report.Entity\bin\Debug\net6.0\Report.Entity.pdb
-C:\Users\a851276\source\repos\Assesment\HCALabReport\Report.Entity\obj\Debug\net6.0\Report.Entity.csproj.AssemblyReference.cache
 C:\Users\a851276\source\repos\Assesment\HCALabReport\Report.Entity\obj\Debug\net6.0\Report.Entity.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\a851276\source\repos\Assesment\HCALabReport\Report.Entity\obj\Debug\net6.0\Report.Entity.AssemblyInfoInputs.cache
 C:\Users\a851276\source\repos\Assesment\HCALabReport\Report.Entity\obj\Debug\net6.0\Report.Entity.AssemblyInfo.cs

@@ -20,5 +20,6 @@ namespace Report.Entity
         public DbSet<TestResults> TestResult { get; set; } = null!;
         public DbSet<TestSummaries> TestSummary { get; set; } = null!;
         public DbSet<TestReports> TestReport { get; set; } = null!;
+        public DbSet<LoginCredential> LoginCredentials { get; set; } = null!;
     }
 }
