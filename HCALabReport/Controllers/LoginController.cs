@@ -60,7 +60,7 @@ namespace HCALabReport.Controllers
         /// </summary>
         /// <param name="Name"></param>
         /// <returns></returns>
-        [Route("GetCredentialByName")]
+        [Route("GetCredentialById")]
         [HttpGet]
         public ActionResult GetCredential(long Id)
         {
