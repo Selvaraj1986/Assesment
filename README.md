@@ -9,9 +9,19 @@ IDE and Library
  - Asp.net core
  - InMemory Databse used
  - Swagger
+ - Implemented JwtToken authentication
 
 API Reference
 
+login services
+ 
+  POST https://localhost:7282/api/login/Authentication
+  GET https://localhost:7282/api/Login/GetCretentialList
+  GET https://localhost:7282/api/Login/GetCretentialById?Id
+  POST https://localhost:7282/api/Login/AddCretential
+  PUT https://localhost:7282/api/Login/ModifyCretential
+  DELETE https://localhost:7282/api/Login/DeleteCretential
+  
 Patient Details Services
 
   GET https://localhost:7282/api/PatientDetails/GetPatientDetails
