@@ -19,7 +19,11 @@ namespace HCALabReport.Controllers
             _loginCredentialRepository = loginCredentialRepository;
             _iconfiguration = configuration;
         }
-
+        /// <summary>
+        /// Login the user
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost]
         [Route("Authentication")]
         [AllowAnonymous]
@@ -58,9 +62,9 @@ namespace HCALabReport.Controllers
         /// <summary>
         /// To display the credential details by Name
         /// </summary>
-        /// <param name="Name"></param>
+        /// <param name="Id"></param>
         /// <returns></returns>
-        [Route("GetCredentialByName")]
+        [Route("GetCredentialById")]
         [HttpGet]
         public ActionResult GetCredential(long Id)
         {
