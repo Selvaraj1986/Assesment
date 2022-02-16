@@ -1,6 +1,6 @@
-HCA Youtube Channel
 
-## Available Scripts
+
+## HCA Youtube Channel
 
 In the project directory, you can run:
 
