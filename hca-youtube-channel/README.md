@@ -2,7 +2,10 @@
 
 ## HCA Youtube Channel
 
-In the project directory, you can run:
+# Steps to process:
+
+### 'npm i react'
+after clone the code need to run the npm i react to install npm
 
 ### `npm start`
 
