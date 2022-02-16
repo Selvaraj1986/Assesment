@@ -2,7 +2,13 @@
 
 ## HCA Youtube Channel
 
+The codes was deployed to githup pages for testing purpose.
+Find the below githup published url
+https://selvaraj1986.github.io/ReactApp/
+
 # Steps to process:
+
+### install the nodejs for latest version
 
 ### 'npm i react'
 after clone the code need to run the npm i react to install npm
