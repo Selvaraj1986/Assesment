@@ -1,8 +1,11 @@
 .header {
-    max-width: 1440px;
-  
+    max-width: 1440px;   
 }
 
+.header-hca{
+    background-color: #03173e !important;
+    height: 40px;
+}
 .footer{
     text-align: center;
     background-color: #58514a;
@@ -74,14 +77,29 @@
         background-color: #1f2532;
     }*/
 }
+.header-filter{
+    margin-top: 0px;
+}
+.header-filter-btn {
+    border-radius:3px;
+    border: none;
 
-
+    background-color: #1f2532; 
+    transition: background .3s;
+    margin: 0px 0px 15px 10px !important;
+    float: right;
+  /*  &:hover {
+        background-color: #1f2532;
+    }*/
+}
 
 .text {
     color: white;
 }
 
-
+.brand-wrap{
+    min-width: 100%;
+}
 .video-item {
     display: flex !important;
     align-items: center !important;

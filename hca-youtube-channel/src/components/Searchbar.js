@@ -1,14 +1,15 @@
 import React from "react";
 import '../style/video.css';
-const defaultLoad='COVID-19 Vaccine Podcast;';
+const defaultCovid19Videos = 'COVID-19 Vaccine Podcast';
+const defaulAllVideos = 'HCA';
 class Searchbar extends React.Component {
     constructor(props) {
         super(props);
     }
-    
+
     //by default inial load videos
-    componentDidMount() {        
-        this.props.handleFormSubmit(defaultLoad);
+    componentDidMount() {
+        this.props.handleFormSubmit(defaultCovid19Videos);
     }
 
     state = {
@@ -29,19 +30,38 @@ class Searchbar extends React.Component {
     handleClick() {
         this.props.handleFormSubmit(this.state.term);
     }
+    filterCovid19Videos() {
+        this.state.term = defaultCovid19Videos;
+        this.props.handleFormSubmit(defaultCovid19Videos);
+    }
+    filterAllVideo() {
+        this.state.term = defaulAllVideos;
+        this.props.handleFormSubmit(defaulAllVideos);
+    }
     render() {
         return (
-            <div className='search-bar ui segment'>
-                <form onSubmit={this.handleSubmit} className='ui form'>
-                    <div className='field'>
-                        <input onChange={this.handleChange} name='video-search' placeholder="Search" style={{ width: '90%' }} type="text" value={this.state.term} />
+            <div className="header-filter">
 
-                        <button aria-label="Search" className="header-search-btn" onClick={() => this.handleClick()}>
-                            <span className="text">Search</span>
-                        </button>
-                    </div>
-                </form>
-            </div>
+                <div className='search-bar ui segment'>
+
+                    <form onSubmit={this.handleSubmit} className='ui form'>
+                        <div style={{ marginRight: '10%' }}>
+                            <button className="header-filter-btn" type='text' onClick={() => this.filterAllVideo()}>
+                                <span className="text">All Videos</span>
+                            </button>
+                            <button className="header-filter-btn" type='text' onClick={() => this.filterCovid19Videos()}>
+                                <span className="text">Covid-19 Videos</span>
+                            </button>
+                        </div>
+                        <div className='field'>
+                            <input onChange={this.handleChange} name='video-search' placeholder="Search" style={{ width: '90%' }} type="text" />
+                            <button aria-label="Search" className="header-search-btn" onClick={() => this.handleClick()}>
+                                <span className="text">Search</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div >
         )
     }
 }

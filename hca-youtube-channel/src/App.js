@@ -6,19 +6,25 @@ import youtube from './apis/Youtube.js';
 import VideoList from './components/VideoList';
 import VideoDetail from './components/VideoDetail';
 import './style/video.css';
-const defaultLoad='COVID-19 Vaccine Podcast;';
+const defaultLoad = 'COVID-19 Vaccine Podcast;';
 class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+  }
 
   //initialize the state
   state = {
     videos: [],
     selectedVideo: null
   }
-  
+  handleVideoSelect = (video) => {
+    this.setState({ selectedVideo: video })
+  }
   //to search the video 
   handleSubmit = async (termFromSearchBar) => {
     if (!termFromSearchBar) {
-      termFromSearchBar=defaultLoad;
+      termFromSearchBar = defaultLoad;
     }
     const response = await youtube.get('/search', {
       params: {
@@ -29,12 +35,8 @@ class App extends React.Component {
     this.setState({
       videos: response.data.items
     })
+    this.handleVideoSelect(this.state.videos[0]);
   };
-  //get the selected video to watch
-  handleVideoSelect = (video) => {
-    this.setState({ selectedVideo: video })
-  }
-
   render() {
     return (
       <div>

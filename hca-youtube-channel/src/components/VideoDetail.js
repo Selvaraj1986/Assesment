@@ -3,6 +3,7 @@ import Moment from 'moment';
 const VideoDetail = ({ video }) => {
 
     if (video) {
+        window.scrollTo(0, 0)
         const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
 
         return (
